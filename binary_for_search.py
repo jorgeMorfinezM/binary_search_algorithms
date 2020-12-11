@@ -53,3 +53,13 @@ data_search = "Cortina"
 index_search = binary_search(data_list, data_search)
 
 print("El elemento {} esta en el indice {}".format(data_search, index_search))
+
+data_chars = ["{", "[", "]", "}", "]"]
+
+print("Busqueda para la lista: ", data_chars)
+
+data_search = '['
+
+search = binary_search(data_chars, data_search)
+
+print("El elemento {} esta en el indice {}".format(data_search, search))

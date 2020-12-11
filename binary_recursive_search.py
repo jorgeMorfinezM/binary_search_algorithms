@@ -29,11 +29,11 @@ Tests:
 """
 
 # Test con arreglo numericos
-data_list = [1, 2, 3, 10, 50, 80, 120, 150, 500, 1000]
+data_list = ["{", "[", "]", "}", "]"]
 
 print("Busqueda para la lista: ", data_list)
 
-data_search = 500
+data_search = "["
 
 index_search = binary_recursive_search(data_list, data_search, 0, len(data_list) - 1)
 
